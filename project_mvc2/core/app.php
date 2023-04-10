@@ -6,7 +6,7 @@ class app
 
     public function __construct()
     {
-        include('./view/template/navigation.php');
+        include('./view/template/nav.php');
         include('./view/template/header.php');
         $this->parseurl();
         include('./view/template/footer.php');
